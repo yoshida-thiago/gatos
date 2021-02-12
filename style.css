@@ -1,0 +1,83 @@
+/* Tags */
+
+
+@font-face {
+  font-family: brownies;
+  src: url(brownies_cake-webfont.woff);
+}
+
+header {
+  padding: 20px 0;
+}
+
+body {
+  background-color: #fbaccc;
+}
+
+h1 {
+  text-align: center;
+  font-family: brownies;
+  color: #f4f9f9;
+  font-size: 72px;
+}
+
+
+/* Classes */
+
+
+.titulo {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.gatos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.gatos li {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.gatos li:hover {
+  padding-top: 10px;
+}
+
+.gatos h2 {
+  color: #f4f9f9;
+  font-size: 32px;
+}
+
+.gatos p {
+  color: #f4f9f9;
+  text-align: justify;
+  font-family: cursive;
+  font-size: 14px;
+}
+
+.gatos img {
+  margin-top: 7%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  text-align: center;
+  font-family: brownies;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
